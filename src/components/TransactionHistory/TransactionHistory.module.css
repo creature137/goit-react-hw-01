@@ -1,0 +1,27 @@
+.transactionHistory {
+  border-collapse: collapse;
+}
+
+.transactionHistory,
+.headerCell,
+.bodyCell {
+  border: 1px solid black;
+}
+
+.tableHeader {
+  background-color: dimgray;
+}
+
+.headerCell {
+  padding: 5px 0;
+  color: white;
+}
+
+.bodyCell {
+  padding: 5px 50px;
+  text-transform: capitalize;
+}
+
+.bodyRow:nth-child(even) {
+  background-color: lightgray;
+}
